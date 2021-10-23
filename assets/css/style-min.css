@@ -1,0 +1,124 @@
+a:link,
+a:hover,
+a {
+    color: white;
+    text-decoration: none
+}
+
+h3,
+h4 {
+    font-family: 'Tajawal', sans-serif
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold
+}
+
+h4 {
+    font-size: 16px
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("file:///Users/mac/Downloads/yallahmaana%20form%202/assets/images/Marble.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.vp-info .bi {
+    font-size: 30px;
+    color: #ffff;
+    transition: all .3s;
+    transform: scale(.8);
+    backface-visibility: hidden
+}
+
+.vp-info .vp-info__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    background-color: #c15726;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    transition: background-color .3s
+}
+
+.vp-info .vp-info__icon:hover {
+    background-color: #ef6603
+}
+
+.vp-info .vp-info__icon:hover .bi {
+    color: #ffecde;
+    transform: scale(1)
+}
+
+.vp-info .a {
+    color: #ffff;
+}
+
+.an-mise {
+    color: black;
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #ffff;
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #323757;
+    color: white
+}
+
+footer .bi {
+    font-size: 30px;
+    color: white;
+    transition: color .3s;
+    margin-left: 10px
+}
+
+footer .bi:not(:last-child) {
+    margin-right: 10px
+}
+
+footer .vp-so__link:hover .bi-facebook {
+    color: #4267b2
+}
+
+footer .vp-so__link:hover .bi-instagram {
+    color: #e95950
+}
+
+footer ul {
+    list-style: none
+}
+
+footer ul li a {
+    color: white!important;
+    font-size: 18px;
+    font-weight: 300
+}
+
+footer h4 {
+    font-weight: 400;
+    position: relative;
+    margin-right: 20px;
+    color: #ffecde
+}
+
+footer h4::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #ef6603;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
